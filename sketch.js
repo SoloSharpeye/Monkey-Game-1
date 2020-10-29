@@ -7,7 +7,7 @@ var FoodGroup, obstacleGroup;
 var score;
 var invisiblebackround;
 var gameState="start";
-var Music;
+// var Music;
 var banana;
 var survivaltime;
 
@@ -19,7 +19,7 @@ monkey_running = loadAnimation("sprite_0.png","sprite_1.png","sprite_2.png","spr
 
 bananaImage = loadImage("banana.png");
 obstacleImage = loadImage("obstacle.png");
-Music = loadSound("Song.mp3");
+// Music = loadSound("Song.mp3");
 monkeystop=loadImage("sprite_0.png")
 }
 
@@ -44,10 +44,10 @@ function setup() {
   
   gameState="play"
   
-  if (gameState==="start")
-  {
-    Music.play();
-  }
+//   if (gameState==="start")
+//   {
+//     Music.play();
+//   }
   
   
 }
@@ -121,7 +121,7 @@ function draw() {
   
   // calling the music function
   
-  music();
+//   music();
   
   // drawing the sprites
   
@@ -162,12 +162,12 @@ function rock()
   }
   }
 
-function music()
-{
+// function music()
+// {
   
-  // functions for music (not done yet)
+//  functions for music (not done yet)
   
   
-}
+// }
 
 
